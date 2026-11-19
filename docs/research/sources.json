@@ -1,0 +1,199 @@
+{
+  "collected_date": "2026-11-19",
+  "timezone": "Asia/Seoul",
+  "method": "Primary-source discovery plus pinned GitHub file inspection and read-only local evidence inventory. No full literature review or complete account-submission export claimed.",
+  "external": [
+    {
+      "id": "openrsi-space/README.md",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/openrsi-space/blob/ddb7a6ebe90d682984f771203b26d2bb4dc32404/README.md",
+      "commit": "ddb7a6ebe90d682984f771203b26d2bb4dc32404",
+      "git_blob_sha": "d83dca6a755f3c0d9c360f13e80299f8c589621b",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "openrsi-space/docs/executable-harness.md",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/openrsi-space/blob/ddb7a6ebe90d682984f771203b26d2bb4dc32404/docs/executable-harness.md",
+      "commit": "ddb7a6ebe90d682984f771203b26d2bb4dc32404",
+      "git_blob_sha": "dc27a7e36814d4c6ef58b801dc5ce41ee0061b36",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "openrsi-space/src/openrsi_space/contracts/harness.py",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/openrsi-space/blob/ddb7a6ebe90d682984f771203b26d2bb4dc32404/src/openrsi_space/contracts/harness.py",
+      "commit": "ddb7a6ebe90d682984f771203b26d2bb4dc32404",
+      "git_blob_sha": "1fcef56b047a74e6455e6d26a25029d110781dc1",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "openrsi-space/src/openrsi_space/harnesses/executable.py",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/openrsi-space/blob/ddb7a6ebe90d682984f771203b26d2bb4dc32404/src/openrsi_space/harnesses/executable.py",
+      "commit": "ddb7a6ebe90d682984f771203b26d2bb4dc32404",
+      "git_blob_sha": "83dcb29473b1ac72880dc9a05403628821c7568e",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "openrsi-space/src/openrsi_space/client/catalog.py",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/openrsi-space/blob/ddb7a6ebe90d682984f771203b26d2bb4dc32404/src/openrsi_space/client/catalog.py",
+      "commit": "ddb7a6ebe90d682984f771203b26d2bb4dc32404",
+      "git_blob_sha": "930dc89469e716d78f03125207d6da87fcde9362",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "arena-fortress/README.md",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/arena-fortress/blob/eff4c39f6a08c77905cd655706a64b57d322033b/README.md",
+      "commit": "eff4c39f6a08c77905cd655706a64b57d322033b",
+      "git_blob_sha": "6e3c1f5238e6197d8fcac243db32a910f2e1a2a4",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "arena-fortress/framework/README.md",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/arena-fortress/blob/eff4c39f6a08c77905cd655706a64b57d322033b/framework/README.md",
+      "commit": "eff4c39f6a08c77905cd655706a64b57d322033b",
+      "git_blob_sha": "9e33534943a3077cd00061e2231c950940a42f06",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "arena-fortress/framework/harnessarena/adapter.py",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/arena-fortress/blob/eff4c39f6a08c77905cd655706a64b57d322033b/framework/harnessarena/adapter.py",
+      "commit": "eff4c39f6a08c77905cd655706a64b57d322033b",
+      "git_blob_sha": "317c6e58ce1ac8e0e43d274a5bd64d224779f8a6",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "arena-fortress/toolkit/dfbench_toolkit/compare.py",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/arena-fortress/blob/eff4c39f6a08c77905cd655706a64b57d322033b/toolkit/dfbench_toolkit/compare.py",
+      "commit": "eff4c39f6a08c77905cd655706a64b57d322033b",
+      "git_blob_sha": "4339dbb17bd0dcde3223b09328f59ad2f0d34b3f",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "arena-fortress/submission/README.md",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/arena-fortress/blob/eff4c39f6a08c77905cd655706a64b57d322033b/submission/README.md",
+      "commit": "eff4c39f6a08c77905cd655706a64b57d322033b",
+      "git_blob_sha": "5cb622b2fd153a8d749dca284f77b4d9fe13cfbd",
+      "coverage": "file text inspected"
+    },
+    {
+      "id": "openrsi-page",
+      "type": "platform-page",
+      "url": "https://www.yukon.org/openrsi",
+      "coverage": "public page; leaderboard observations not a controlled comparison"
+    },
+    {
+      "id": "fortress-page",
+      "type": "platform-page",
+      "url": "https://www.yukon.org/arena-fortress",
+      "coverage": "page shell; implementation inspected separately"
+    },
+    {
+      "id": "funsearch",
+      "type": "primary-paper",
+      "url": "https://doi.org/10.1038/s41586-023-06924-6",
+      "coverage": "publisher abstract and retrieved text excerpts"
+    },
+    {
+      "id": "alphaevolve",
+      "type": "primary-paper",
+      "url": "https://arxiv.org/abs/2506.13131v1",
+      "coverage": "abstract; no claim to full implementation reproduction"
+    },
+    {
+      "id": "ai-scientist-v2",
+      "type": "primary-report",
+      "url": "https://pub.sakana.ai/ai-scientist-v2/paper/paper.pdf",
+      "coverage": "report discovery/excerpts; author experiment account inspected",
+      "companion_url": "https://sakana.ai/ai-scientist-first-publication/"
+    },
+    {
+      "id": "re-bench",
+      "type": "primary-author-report",
+      "url": "https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/",
+      "coverage": "author methodology, findings and limitations"
+    },
+    {
+      "id": "autoresearch",
+      "type": "primary-implementation",
+      "url": "https://github.com/karpathy/autoresearch/blob/228791fb499afffb54b46200aca536f79142f117/program.md",
+      "commit": "228791fb499afffb54b46200aca536f79142f117",
+      "coverage": "program.md inspected; bounded-loop synthesis, no code copied"
+    },
+    {
+      "id": "arena-fortress/submission/overseer/harness.py",
+      "type": "primary-implementation",
+      "url": "https://github.com/Layr-Labs/arena-fortress/blob/eff4c39f6a08c77905cd655706a64b57d322033b/submission/overseer/harness.py",
+      "commit": "eff4c39f6a08c77905cd655706a64b57d322033b",
+      "coverage": "function map and memory/budget/control paths inspected"
+    }
+  ],
+  "local": [
+    {
+      "path_relative_to_parent": "circuitbreaker-research/state.md",
+      "sha256": "8bc67ffbd3f89c5d3eacb7b9d26bef27ff5b11233e1a09a2971204f421a05e86",
+      "bytes": 10061,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "circuitbreaker-research/reports/2026-11-05-refresh/research.md",
+      "sha256": "6594f0b4d1cca73f8568d6a4e20d4e829a2f8326ad0fc226864d60a017bbeb75",
+      "bytes": 12689,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "circuitbreaker-research/reports/refined-submission-upload-blocked.json",
+      "sha256": "021dff757f3b2400dd2ea0dbb9cfc08dfb810b24177bb9ff0eab19b3caa49669",
+      "bytes": 2895,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "shor-ecdlp-research/AGENTS.md",
+      "sha256": "e4d587667d2286a700fe80b6ca45ff47d0d044c75cf0fd51f0b2aabd796af23a",
+      "bytes": 5458,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "shor-ecdlp-research/PLAN.md",
+      "sha256": "85c310af1e8dff7e52dcd17b7f549420bf0cf742ce66c350bba946b02417e302",
+      "bytes": 5969,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "shor-ecdlp-research/state.md",
+      "sha256": "22fea8db41680fde7a58bef51de5c984622bd3c28fb5b1cdee9b5b38ff38df95",
+      "bytes": 2713,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "commit-golf/README.md",
+      "sha256": "2543f5ec0305dfe43be54fb60368eb1071ae10ec68b3dc5029d6a9d539afc3d6",
+      "bytes": 9182,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "commit-golf/benchmark.json",
+      "sha256": "d94ecc86a22109b69bb50f5dbba2ae11f224104710688ff19a186f3dd02ed61d",
+      "bytes": 1936,
+      "coverage": "inspected; original private local bytes not redistributed"
+    },
+    {
+      "path_relative_to_parent": "commit-golf/submission-pareto/README.md",
+      "sha256": "8db14ebafae0c4bfc947c24a75b032be1327b926df62b2594e50faaa7f499283",
+      "bytes": 2459,
+      "coverage": "inspected; original private local bytes not redistributed"
+    }
+  ],
+  "local_checkout_heads": {
+    "circuitbreaker": "2cd3a17f3f296b7f0ac248a63a9b54a0fabdf851",
+    "shor-ecdlp-lean": "0395f6e230b32e1856ce89d39894e44191c60f37",
+    "commit-golf": "0585bfb7ab74cad0be5d213dcdb20b433dffebb2"
+  }
+}

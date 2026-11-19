@@ -1,0 +1,32 @@
+test_archive_and_evidence_integrity_on_resume (test_frontier.HarnessTests.test_archive_and_evidence_integrity_on_resume) ... ok
+test_baseline_improvement_failure_and_resume (test_frontier.HarnessTests.test_baseline_improvement_failure_and_resume) ... ok
+test_baseline_is_immutable (test_frontier.HarnessTests.test_baseline_is_immutable) ... ok
+test_budget_reserved_including_failures (test_frontier.HarnessTests.test_budget_reserved_including_failures) ... ok
+test_candidate_archive_drift_on_resume (test_frontier.HarnessTests.test_candidate_archive_drift_on_resume) ... ok
+test_candidate_cannot_add_protected_files (test_frontier.HarnessTests.test_candidate_cannot_add_protected_files) ... ok
+test_completed_sample_survives_later_failure (test_frontier.HarnessTests.test_completed_sample_survives_later_failure) ... ok
+test_evaluator_mutation_rejected (test_frontier.HarnessTests.test_evaluator_mutation_rejected) ... ok
+test_finite_strict_metrics_and_valid_boolean (test_frontier.HarnessTests.test_finite_strict_metrics_and_valid_boolean) ... ok
+test_huge_integer_scores_remain_exact (test_frontier.HarnessTests.test_huge_integer_scores_remain_exact) ... ok
+test_invalid_budgets_fail_before_initialization (test_frontier.HarnessTests.test_invalid_budgets_fail_before_initialization) ... ok
+test_multi_seed_samples_and_exact_means (test_frontier.HarnessTests.test_multi_seed_samples_and_exact_means) ... ok
+test_nonzero_exit_cannot_be_valid (test_frontier.HarnessTests.test_nonzero_exit_cannot_be_valid) ... ok
+test_output_limit (test_frontier.HarnessTests.test_output_limit) ... ok
+test_parent_must_be_validated_in_same_session (test_frontier.HarnessTests.test_parent_must_be_validated_in_same_session) ... ok
+test_pareto_mixed_directions (test_frontier.HarnessTests.test_pareto_mixed_directions) ... ok
+test_path_traversal_and_overlap (test_frontier.HarnessTests.test_path_traversal_and_overlap) ... ok
+test_protected_mutation_rejected (test_frontier.HarnessTests.test_protected_mutation_rejected) ... ok
+test_protected_source_edit_rejected_before_execution (test_frontier.HarnessTests.test_protected_source_edit_rejected_before_execution) ... ok
+test_reference_drift_blocks_resume (test_frontier.HarnessTests.test_reference_drift_blocks_resume) ... ok
+test_requires_actual_unchanged_baseline (test_frontier.HarnessTests.test_requires_actual_unchanged_baseline) ... ok
+test_secret_and_runtime_state_excluded (test_frontier.HarnessTests.test_secret_and_runtime_state_excluded) ... ok
+test_secrets_not_inherited_by_evaluator (test_frontier.HarnessTests.test_secrets_not_inherited_by_evaluator) ... ok
+test_symlink_rejected (test_frontier.HarnessTests.test_symlink_rejected) ... ok
+test_timeout_is_not_score_zero (test_frontier.HarnessTests.test_timeout_is_not_score_zero) ... ok
+test_wall_budget_persists_across_restarts (test_frontier.HarnessTests.test_wall_budget_persists_across_restarts) ... ok
+test_writer_lock_and_explicit_recovery (test_frontier.HarnessTests.test_writer_lock_and_explicit_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 1.841s
+
+OK

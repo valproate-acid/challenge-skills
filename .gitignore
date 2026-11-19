@@ -1,0 +1,13 @@
+.omx/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.frontier/
+*.sqlite3*
+dist/
+build/
+demo/
+*.egg-info/
+.env*
+!.env.example

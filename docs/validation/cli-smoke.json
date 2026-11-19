@@ -1,0 +1,1 @@
+{"status": "PASS", "baseline_loss": "49", "candidate_loss": "0", "invalid_candidate": "failed", "evaluations_reserved": 3, "source_unchanged_by_controller": true, "network_or_model_calls": 0}

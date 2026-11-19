@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "problem": "toy-integer-search",
+  "context": "toy-v1: squared distance to 7; exact deterministic evaluator",
+  "editable_paths": ["candidate.json"],
+  "evaluator": ["python3", "evaluate.py"],
+  "objectives": {"loss": "min"},
+  "seeds": [0],
+  "budget": {"max_evaluations": 6, "wall_seconds": 3600, "evaluation_seconds": 5}
+}
