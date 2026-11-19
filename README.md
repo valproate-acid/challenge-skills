@@ -10,6 +10,8 @@ Yukon OpenRSI·Fortress의 실행 구조, 기존 챌린지 기록, 자동 연구
 ## 설치
 
 Python 3.11 이상, macOS 또는 Linux가 필요합니다. 별도 Python 패키지는 필요 없습니다.
+[v0.1.0 릴리스](https://github.com/valproate-acid/challenge-skills/releases/tag/v0.1.0)에서
+스킬 ZIP을 받거나 저장소를 복제하여 설치할 수 있습니다.
 
 ```sh
 git clone https://github.com/valproate-acid/challenge-skills.git

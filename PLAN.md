@@ -11,7 +11,11 @@ challenge optimization or challenge submission is authorized by this task.
 - [x] Implement a portable skill and dependency-free local evaluation controller.
 - [x] Cover baseline, invalid evidence, budgets, exact/Pareto metrics and recovery.
 - [x] Complete independent behavioral forward-test and CLI end-to-end check.
-- [ ] Validate skill packaging and public payload; publish authorized GitHub repository.
+- [x] Validate skill packaging and public payload; publish authorized GitHub repository.
+
+Published repository: <https://github.com/valproate-acid/challenge-skills>.
+The initial implementation passed all four GitHub CI environments:
+<https://github.com/valproate-acid/challenge-skills/actions/runs/44476324454>.
 
 ## Subsequent work (not claimed by this release)
 

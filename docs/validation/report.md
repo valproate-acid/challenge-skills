@@ -10,6 +10,7 @@ local workflow behavior, not frontier scientific capability or benchmark gains.
 | CLI subprocess workflow, paths containing spaces | Baseline loss 49 → candidate loss 0; invalid candidate rejected; 3 evaluations reserved | [cli-smoke.json](cli-smoke.json), `tests/smoke_cli.py` |
 | Official skill-creator validator | `Skill is valid!` | Temporary uv/PyYAML environment; runtime remains stdlib-only |
 | Independent skill forward-test | Baseline and nondominated tradeoff retained; invalid candidate excluded; resumable journal created | [forward-test.json](forward-test.json) |
+| GitHub Actions, Ubuntu/macOS × Python 3.11/3.13 | All 4 jobs passed both 27 behavioral tests and CLI smoke | [CI run](https://github.com/valproate-acid/challenge-skills/actions/runs/44476324454), implementation commit `e9e7a949d09bf7a602eb454946c980f153ec9031` |
 
 Behavioral tests exercise immutable baseline, protected-source drift, symlinks and
 path traversal, invalid certificates, nonzero exit, timeout, output limit, exact
@@ -32,9 +33,8 @@ uv run --with pyyaml python /path/to/skill-creator/scripts/quick_validate.py \
   skills/frontier-research
 ```
 
-Only the validator needs PyYAML. It is not a runtime requirement. GitHub CI is
-configured for Python 3.11/3.13 on Ubuntu/macOS; its actual run outcome is separate
-from the local results above.
+Only the validator needs PyYAML. It is not a runtime requirement. GitHub CI passed
+on Python 3.11/3.13 on Ubuntu/macOS; the linked run records each job separately.
 
 Not run: real OpenRSI/Dungeness, Fortress game/model, sibling Lean/verifier builds,
 paid-model experiments, hosted task/mount integration, statistical efficacy study,
